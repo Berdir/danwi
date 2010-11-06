@@ -5,7 +5,7 @@ namespace KNN_Uebung2_A4
 {
 	public class Aufgabe
 	{
-		public static void Main()
+		public static void MainDisabled()
 		{
 			InputNode x1 = new InputNode("x1", 1);
 			InputNode x2 = new InputNode("x2", 1);

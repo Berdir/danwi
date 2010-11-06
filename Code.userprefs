@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MultiLayer/OutputNode.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KNN_Uebung2_A4/Aufgabe.cs" ctype="Workbench">
     <Files>
       <File FileName="Perceptron.cs" Line="13" Column="32" />
       <File FileName="Dekodierproblem/SingleLayerNetwork.cs" Line="25" Column="60" />
@@ -11,15 +11,18 @@
       <File FileName="Dekodierproblem/Aufgabe3a.cs" Line="28" Column="36" />
       <File FileName="MultiLayer/Node.cs" Line="5" Column="3" />
       <File FileName="MultiLayer/Link.cs" Line="16" Column="1" />
-      <File FileName="MultiLayer/InputNode.cs" Line="4" Column="31" />
-      <File FileName="MultiLayer/HiddenNode.cs" Line="4" Column="32" />
+      <File FileName="MultiLayer/InputNode.cs" Line="4" Column="1" />
+      <File FileName="MultiLayer/HiddenNode.cs" Line="4" Column="1" />
       <File FileName="MultiLayer/OutputNode.cs" Line="3" Column="2" />
+      <File FileName="KNN_Uebung2_A4/Aufgabe.cs" Line="29" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Dekodierproblem" expanded="True" />
-          <Node name="MultiLayer" expanded="True" selected="True" />
+          <Node name="KNN_Uebung2_A4" expanded="True">
+            <Node name="Aufgabe.cs" selected="True" />
+          </Node>
+          <Node name="MultiLayer" expanded="True" />
           <Node name="Perceptron" expanded="True" />
           <Node name="SingleLayerNetwork" expanded="True" />
         </State>

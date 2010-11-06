@@ -1,1 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  <PropertyGroup>    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>    <ProductVersion>8.0.50727</ProductVersion>    <SchemaVersion>2.0</SchemaVersion>    <ProjectGuid>{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}</ProjectGuid>    <OutputType>Exe</OutputType>    <RootNamespace>KNN_Uebung2_A4</RootNamespace>    <AssemblyName>KNN_Uebung2_A4</AssemblyName>  </PropertyGroup>  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">    <DebugSymbols>true</DebugSymbols>    <DebugType>full</DebugType>    <Optimize>false</Optimize>    <OutputPath>bin\Debug</OutputPath>    <DefineConstants>DEBUG</DefineConstants>    <ErrorReport>prompt</ErrorReport>    <WarningLevel>4</WarningLevel>    <PlatformTarget>x86</PlatformTarget>    <ConsolePause>false</ConsolePause>  </PropertyGroup>  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">    <DebugType>none</DebugType>    <Optimize>false</Optimize>    <OutputPath>bin\Release</OutputPath>    <ErrorReport>prompt</ErrorReport>    <WarningLevel>4</WarningLevel>    <PlatformTarget>x86</PlatformTarget>    <ConsolePause>false</ConsolePause>  </PropertyGroup>  <ItemGroup>    <ProjectReference Include="..\MultiLayer\MultiLayer.csproj">      <Project>{779B8F07-902A-44CB-9042-6B357AF2FF1F}</Project>      <Name>MultiLayer</Name>    </ProjectReference>  </ItemGroup>  <ItemGroup>    <Compile Include="Aufgabe.cs" />  </ItemGroup>  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />  <ProjectExtensions>    <MonoDevelop>      <Properties InternalTargetFrameworkVersion="3.5" xmlns="" />    </MonoDevelop>  </ProjectExtensions></Project>
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>KNN_Uebung2_A4</RootNamespace>
+    <AssemblyName>KNN_Uebung2_A4</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MultiLayer\MultiLayer.csproj">
+      <Project>{779B8F07-902A-44CB-9042-6B357AF2FF1F}</Project>
+      <Name>MultiLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aufgabe.cs" />
+    <Compile Include="AufgabeMitAForge.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="3.5" />
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Reference Include="AForge.Neuro, Version=2.1.1.0, Culture=neutral, PublicKeyToken=2094f4ea39731d4f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\AForge.Neuro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
