@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceptron", "Perceptron.csproj", "{33036186-6C02-4381-B1DB-1A3574B5F97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe3a", "Dekodierproblem\Aufgabe3a.csproj", "{69C3F49F-041C-4AF7-8432-1E343C50DF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLayerNetwork", "SingleLayerNetwork\SingleLayerNetwork.csproj", "{9806B49E-7220-461D-A6A0-A4F9EC16A370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLayer", "MultiLayer\MultiLayer.csproj", "{779B8F07-902A-44CB-9042-6B357AF2FF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNN_Uebung2_A4", "KNN_Uebung2_A4\KNN_Uebung2_A4.csproj", "{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33036186-6C02-4381-B1DB-1A3574B5F97D}.Debug|x86.ActiveCfg = Debug|x86
+		{33036186-6C02-4381-B1DB-1A3574B5F97D}.Debug|x86.Build.0 = Debug|x86
+		{33036186-6C02-4381-B1DB-1A3574B5F97D}.Release|x86.ActiveCfg = Release|x86
+		{33036186-6C02-4381-B1DB-1A3574B5F97D}.Release|x86.Build.0 = Release|x86
+		{69C3F49F-041C-4AF7-8432-1E343C50DF2B}.Debug|x86.ActiveCfg = Debug|x86
+		{69C3F49F-041C-4AF7-8432-1E343C50DF2B}.Debug|x86.Build.0 = Debug|x86
+		{69C3F49F-041C-4AF7-8432-1E343C50DF2B}.Release|x86.ActiveCfg = Release|x86
+		{69C3F49F-041C-4AF7-8432-1E343C50DF2B}.Release|x86.Build.0 = Release|x86
+		{779B8F07-902A-44CB-9042-6B357AF2FF1F}.Debug|x86.ActiveCfg = Debug|x86
+		{779B8F07-902A-44CB-9042-6B357AF2FF1F}.Debug|x86.Build.0 = Debug|x86
+		{779B8F07-902A-44CB-9042-6B357AF2FF1F}.Release|x86.ActiveCfg = Release|x86
+		{779B8F07-902A-44CB-9042-6B357AF2FF1F}.Release|x86.Build.0 = Release|x86
+		{9806B49E-7220-461D-A6A0-A4F9EC16A370}.Debug|x86.ActiveCfg = Debug|x86
+		{9806B49E-7220-461D-A6A0-A4F9EC16A370}.Debug|x86.Build.0 = Debug|x86
+		{9806B49E-7220-461D-A6A0-A4F9EC16A370}.Release|x86.ActiveCfg = Release|x86
+		{9806B49E-7220-461D-A6A0-A4F9EC16A370}.Release|x86.Build.0 = Release|x86
+		{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}.Debug|x86.ActiveCfg = Debug|x86
+		{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}.Debug|x86.Build.0 = Debug|x86
+		{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}.Release|x86.ActiveCfg = Release|x86
+		{E4F1A34B-C4AB-43A5-ADD0-2BDA6E35763E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = KNN_Uebung2_A4\KNN_Uebung2_A4.csproj
+	EndGlobalSection
+EndGlobal
